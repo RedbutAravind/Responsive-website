@@ -1,0 +1,318 @@
+@keyframes dest-anime {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+.home {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    height: 900px;
+    border-radius: 12px;
+}
+
+.icons {
+    float: right;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.icons:hover {
+    filter: drop-shadow(5px #000);
+}
+
+.home {
+    background-image: url(bg1\ -\ David\ Marcu.jpg);
+    background-position: center;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+}
+
+.home h1 {
+    text-align: center;
+    color: #fff;
+    font-family: poppins;
+    font-size: 40px;
+}
+
+.seperate1 {
+    background-color: #ffffff41;
+    height: 600px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 60px;
+    transition: all 0.3s;
+    cursor: default;
+}
+
+.seperate1 p {
+    color: #fff;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12.5px;
+    font-family: poppins;
+}
+
+.seperate1 h1 {
+    padding-top: 10px;
+}
+
+.seperate1:hover {
+    box-shadow: 5px 5px 25px #000;
+    scale: 101%;
+}
+
+@media only screen and (max-width:400px) {
+    .icons {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .icons {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width:325px) {
+    .icons {
+        margin-right: 20px;
+    }
+
+    .seperate1 {
+        width: 250px;
+        height: 700px;
+        border-radius: 20px;
+    }
+
+    .logo {
+        scale: 80%;
+    }
+}
+
+.travel-areas1 {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+}
+
+.seperate2 {
+    background-color: #1F1F1F;
+    height: 600px;
+    width: 300px;
+    float: left;
+    border-radius: 40px;
+    margin-top: 90px;
+    transition: all 0.3s;
+    cursor: default;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.seperate3 {
+    background-color: #1F1F1F;
+    height: 600px;
+    width: 300px;
+    border-radius: 40px;
+    margin-top: 90px;
+    transition: all 0.3s;
+    cursor: default;
+    position: absolute;
+    text-align: center;
+}
+
+.seperate4 {
+    background-color: #1F1F1F;
+    height: 600px;
+    width: 300px;
+    float: right;
+    border-radius: 40px;
+    margin-top: 90px;
+    transition: all 0.3s;
+    cursor: default;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.center-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    transform: translateX(-150px);
+}
+
+.dest-img {
+    margin-top: 40px;
+    border-radius: 12px;
+    transition: filter 0.3s;
+}
+
+.dest-names {
+    color: #fff;
+    font-family: poppins;
+}
+
+.dest-para {
+    color: #fff;
+    font-family: arial;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dest-img:hover {
+    filter: brightness(50%);
+}
+
+.seperate2:hover{
+    box-shadow: 0 0 20px 10px #fff;
+}
+
+.seperate3:hover{
+    box-shadow: 0 0 20px 10px #fff;
+}
+
+.seperate4:hover{
+    box-shadow: 0 0 20px 10px #fff;
+}
+
+
+@media only screen and (max-width:1060px) {
+    .seperate2 {
+        width: 200px;
+        height: 700px;
+    }
+
+    .seperate3 {
+        width: 200px;
+        transform: translateX(50px);
+        height: 700px;
+    }
+
+    .seperate4 {
+        width: 200px;
+        height: 700px;
+    }
+
+    .dest-img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .seperate2 {
+        width: 300px;
+        height: 600px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: dest-anime;
+        animation-duration: 1s;
+        animation-timeline: view();
+        opacity: 0;
+    }
+
+    .seperate3 {
+        width: 300px;
+        transform: translateX(0px);
+        height: 600px;
+        display: block;
+        margin-top: 40px;
+        float: none;
+        animation-name: dest-anime;
+        animation-duration: 1s;
+        animation-timeline: view();
+        opacity: 0;
+    }
+
+    .seperate4 {
+        width: 300px;
+        height: 600px;
+        display: block;
+        margin-top: 680px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: dest-anime;
+        animation-duration: 1s;
+        animation-timeline: view();
+        opacity: 0;
+    }
+
+    .dest-img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+
+    
+    .seperate2 {
+        width: 250px;
+        height: 580px;
+        border-radius: 12px;
+    }
+
+    .seperate3 {
+        width: 250px;
+        height: 580px;
+        transform: translateX(25px);
+        border-radius: 12px;
+    }
+
+    .seperate4 {
+        width: 250px;
+        height: 580px;
+        margin-top: 660px;
+        border-radius: 12px;
+    }
+
+    .dest-img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .travel-areas1 {
+        margin-top: 150px;
+    }
+
+    .seperate2 {
+        width: 250px;
+        height: 580px;
+        border-radius: 12px;
+    }
+
+    .seperate3 {
+        width: 250px;
+        height: 580px;
+        transform: translateX(25px);
+        border-radius: 12px;
+    }
+
+    .seperate4 {
+        width: 250px;
+        height: 580px;
+        margin-top: 660px;
+        border-radius: 12px;
+    }
+
+    .dest-img {
+        width: 100px;
+    }
+}
